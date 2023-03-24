@@ -2,6 +2,7 @@
 	height:350px;
 	width:350px;
 	border:1px solid grey;
+	position:relative;
 }
 .modal-body{
 	display:flex;
@@ -15,5 +16,5 @@ btn btn-secondary{
 .modal-footer{
 	top:500px;
 	left:10px
-	position:fixed;
+	position:absolute;
 }
