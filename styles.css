@@ -1,2 +1,19 @@
-
-/* Your CSS Code here. */
+.modal-content{
+	height:350px;
+	width:350px;
+	border:1px solid grey;
+}
+.modal-body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+btn btn-secondary{
+	background-color:black;
+	color:black;
+}
+.modal-footer{
+	top:500px;
+	left:10px
+	position:fixed;
+}
